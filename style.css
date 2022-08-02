@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+* {
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    margin: 10px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #414447;
+    margin: 50px;
+    margin-top: 44px;
+}   
+
+li {
+    list-style: none;    
+}
+
+p {
+    margin: 10px;
+}
+
+.caixa {
+    width: 20%;
+    height: 600px;
+    background-color: #808284;
+}
+
+.caixa2 {
+    width: 80%;
+    height: 600px;
+    background-color: #BFC1C2;
+}
+
+.colorr {
+    color: black;
+}
+
+.fontee {
+    font-family: Oxygen;
+}
+
+.listaordenada {
+    margin: 18px;
+    font-size: 25px;
+    list-style-type: upper-latin;
+}
+
+.lista-nao-ord {
+    margin: 18px;
+    font-size: 25px;
+}
+
+.redesocial {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+
+.textoo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
